@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruitment Startup</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff847c;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            border-radius: 5px;
+            height: 34vh;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            margin-left: 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #fff;
+            color: #ff847c;
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .color {
+            border-radius: 25px;
+            background-color: peachpuff;
+            padding: 5px;
+        }
+
+        .hero-content h2 {
+            color: #ff847c;
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .hero-content p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .about-content h2 {
+            color: #ff847c;
+            font-size: 32px;
+        }
+
+        .about-content p {
+            font-size: 18px;
+        }
+
+        .top-recruiters h2 {
+            color: #ff847c;
+            font-size: 32px;
+        }
+
+        .top-recruiters li {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .statistics h3 {
+            color: #ff847c;
+            font-size: 30px;
+        }
+
+        .statistics p {
+            font-size: 18px;
+        }
+
+        .why-love-us h2 {
+            color: #ff847c;
+            font-size: 32px;
+        }
+
+        .why-love-us li {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .why-recruiters-love-us h2,
+        .reviews h2 {
+            color: #ff847c;
+            font-size: 30px;
+        }
+
+        .reviews .review-item {
+            border-top: 1px solid #ccc;
+            padding: 20px 0;
+        }
+
+        .reviews .review-item:first-child {
+            border-top: none;
+        }
+
+        .reviews .review-item p:before,
+        .reviews .review-item p:after {
+            color: #ff847c;
+            font-size: 24px;
+        }
+
+        .btn {
+            background-color: #ff847c;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #ff5a50;
+        }
+
+        .services-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .service-item {
+            flex-basis: calc(33.33% - 20px);
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #ffbdb8;
+            border: 1px solid #ff847c;
+            border-radius: 5px;
+        }
+
+        .service-item img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .contact-content {
+            text-align: center;
+            background-color: #ffbdb8;
+            padding: 20px;
+            border: 1px solid #ff847c;
+            border-radius: 5px;
+        }
+
+        .contact-content form input,
+        .contact-content form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .contact-content form button {
+            background-color: #ff847c;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .contact-content form button:hover {
+            background-color: #ff5a50;
+        }
+
+        footer {
+            background-color: #ff847c;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .head-img {
+            width: 100vw;
+            height: 25vh;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://ik.imagekit.io/vgswit0dm/assets/images/startupjob-home-banner.svg"
+            alt="Recruitment Startup Logo" class="head-img">
+        <nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Job Search">
+                <button class="search-btn">Search</button>
+            </div>
+            <a href="#signin">Sign In</a>
+            <a href="#messages">Messages</a>
+            <a href="#feedback">Feedback</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero color">
+            <div class="hero-content">
+                <h2>Find Your Dream Team</h2>
+                <p>Welcome to Recruitment Startup, where exceptional talent meets outstanding opportunities, paving the
+                    way for mutual success and growth. As a leading recruitment partner in the industry, we take immense
+                    pride in our commitment to excellence and our ability to connect top-tier candidates with
+                    forward-thinking businesses across diverse sectors. With an experienced team of dedicated
+                    recruiters, we possess an in-depth understanding of industry trends and hiring dynamics, enabling us
+                    to identify the perfect fit for your organization's unique needs and culture.
+
+                    At Recruitment Startup, we recognize that every hiring requirement is distinct, and thus, we tailor
+                    our solutions to suit your specific goals and objectives. Our extensive talent pool encompasses a
+                    broad spectrum of professionals, ranging from entry-level positions to C-suite executives, ensuring
+                    that we can fulfill your talent needs at any level.
+
+                    We understand that time is a valuable resource, and our streamlined recruitment process ensures
+                    efficient and timely hiring, empowering you to concentrate on driving your business towards greater
+                    heights. Whether you seek permanent placements, temporary staffing solutions, executive search
+                    services, or talent consulting, we have the expertise and resources to deliver unparalleled results.
+
+                    Our focus extends beyond merely filling vacancies; we strive to foster lasting partnerships with our
+                    clients and candidates alike. Our success lies in your success, and we are driven by the profound
+                    impact we can make together. Partner with Recruitment Startup today and experience a transformative
+                    approach to talent acquisition.
+
+                    Unlock your potential with us as your trusted ally. Contact us today to explore how we can shape a
+                    brighter future for your organization.</p>
+                <a href="#services" class="btn">Explore Services</a>
+            </div>
+        </section>
+
+        <section id="about" class="about color">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>At Recruitment Startup, we are redefining the way talent and businesses connect, paving the path for
+                    a new era in recruitment. We are a dynamic team of passionate professionals who believe in the
+                    transformative power of finding the right fit. Our mission is to empower organizations to thrive by
+                    identifying exceptional talent and helping individuals discover fulfilling career paths.
+                    <br>
+                    Driven by Innovation:
+                    <br>
+                    We pride ourselves on being a forward-thinking recruitment partner, constantly exploring innovative
+                    strategies and technologies to stay ahead of the curve. From harnessing the potential of AI-driven
+                    candidate matching to leveraging data analytics for informed decision-making, we embrace
+                    cutting-edge tools to enhance the hiring process and deliver outstanding results.
+                    <br>
+                    Personalized Approach:
+                    <br>
+                    We understand that every organization has unique needs and aspirations, and that's why we don't
+                    believe in a one-size-fits-all approach. Our dedicated team takes the time to deeply understand your
+                    company's culture, values, and goals to curate personalized recruitment solutions that align
+                    perfectly with your vision.
+                    <br>
+                    Nurturing Talent:
+                    <br>
+                    Our commitment extends beyond finding the right talent; we are passionate about nurturing and
+                    empowering individuals throughout their career journeys. We offer guidance, mentorship, and support
+                    to candidates, equipping them with the tools they need to excel in their chosen fields.
+                    <br>
+                    Partnership for Success:
+                    <br>
+                    At Recruitment Startup, we firmly believe that successful partnerships are built on transparency,
+                    integrity, and trust. We take pride in fostering long-term relationships with our clients and
+                    candidates, standing by their side as they achieve their goals and objectives.
+                    <br>
+                    Join Us in Shaping the Future:
+                    <br>
+                    Whether you are an organization seeking your next top-performer or a talented individual in pursuit
+                    of your dream job, we invite you to join us in shaping the future of recruitment. Together, we can
+                    create an ecosystem where every match is a stepping stone towards success.
+                    <br>
+                    Experience the power of a fresh and innovative approach to talent acquisition. Connect with
+                    Recruitment Startup today, and let's embark on a journey of growth and prosperity together.
+                </p>
+            </div>
+        </section>
+
+        <section id="topRecruiters" class="top-recruiters  color">
+            <div class="recruiters-content">
+                <h2>Top Recruiters</h2>
+                <ul>
+                    <li>Google</li>
+                    <li>Microsoft</li>
+                    <li>Apple</li>
+                    <li>Amazon</li>
+                    <li>Facebook</li>
+                    <li>Netflix</li>
+                    <li>IBM</li>
+                    <li>Intel</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="stats" class="statistics  color">
+            <div class="stats-content">
+                <div class="stat-item">
+                    <h3>130K +</h3>
+                    <p>Tech Jobs</p>
+                </div>
+                <div class="stat-item">
+                    <h3>6,000,000</h3>
+                    <p>Matches Made</p>
+                </div>
+                <div class="stat-item">
+                    <h3>8M +</h3>
+                    <p>Startup-ready candidates</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="whyLoveUs" class="why-love-us color">
+            <div class="love-us-content">
+                <h2>Why Job Seekers Love Us</h2>
+                <ul>
+                    <li>Unique jobs at startups and tech companies you can't find anywhere else</li>
+                    <li>Say goodbye to cover letters - your profile is all you need. One click to apply and you're done.
+                    </li>
+                    <li>Everything you need to know to job search - including seeing salary and stock options upfront
+                        when looking</li>
+                    <li>Connect directly with founders at top startups - no third-party recruiters allowed</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="whyRecruitersLoveUs" class="why-recruiters-love-us  color">
+            <div class="recruiters-love-us-content">
+                <h2>Why Recruiters Love Us</h2>
+                <ul>
+                    <li>8 million responsive and startup-ready candidates, with all the information you need to vet them
+                    </li>
+                    <li>Everything you need to kickstart your recruiting - get job posts, company branding, and HR tools
+                        set up within 10 minutes, for free</li>
+                    <li>A free applicant tracking system, or free integration with any ATS you may already use</li>
+                    <li>Plus, we can do the vetting for you! With Curated, we review the world's top tech talent and
+                        highlight candidates directly to you 2x a week.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews  color">
+            <div class="reviews-content">
+                <h2>Reviews</h2>
+                <div class="review-item">
+                    <p>"Got my tech job, 4 years ago and I'm still happy! Pays well, great culture, and unlimited PTO."
+                    </p>
+                </div>
+                <div class="review-item">
+                    <p>"Half of the offers I give are sourced. It's the best product for anyone looking for startup
+                        talent."</p>
+                </div>
+                <div class="review-item">
+                    <p>"I can't imagine my day to day without this platform. Life would be a lot more difficult."</p>
+                </div>
+                <div class="review-item">
+                    <p>"I love this website. I got my current job at a startup entirely through the site last year -
+                        it's super easy to use and I love the UI."</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services color">
+            <div class="services-content">
+                <h2>Our Services</h2>
+                <div class="service-item">
+                    <img src="service 1.gif" alt="Service 1">
+                    <h3>Software Engineering</h3>
+                    <p>Your go-to destination for top-tier software engineering opportunities! Our tech-savvy recruiters and expansive network allow us to connect skilled software engineers with leading tech companies. With a keen eye for talent and a commitment to industry insights, we ensure quality matches that drive innovation and growth. Whether you're a company seeking tech wizards or a talented engineer looking for your dream job, join us in shaping a brighter future in the tech world. Contact us today to unlock your potential or find the perfect tech superstar!
+
+                    </p>
+                </div>
+                <div class="service-item">
+                    <img src="serice 2.gif" alt="Service 2">
+                    <h3>Product Management</h3>
+                    <p>Your gateway to unlocking the potential of exceptional product management talent! At Recruitment Startup, we recognize that product managers are the driving force behind successful products and services. Our mission is to connect visionary product management professionals with forward-thinking companies that value innovation, customer-centricity, and strategic thinking.</p>
+                </div>
+                <div class="service-item">
+                    <img src="service 3.gif" alt="Service 3">
+                    <h3>Data Science</h3>
+                    <p>Your gateway to unleashing the power of data science! At Recruitment Startup, we recognize the invaluable role data scientists play in driving innovation and informed decision-making. Our mission is to connect visionary data science professionals with companies that are eager to harness the potential of data for transformative impact.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact  color">
+            <div class="contact-content">
+                <h2>Contact Us</h2>
+                <form action="submit_form.php" method="POST">
+                    <input type="text" name="name" placeholder="Your Name">
+                    <input type="email" name="email" placeholder="Your Email">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Recruitment Startup. All rights reserved.</p>
+        <p>Contact: contact@recruitmentstartup.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
